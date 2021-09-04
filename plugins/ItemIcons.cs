@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Oxide.Core.Configuration;
 using UnityEngine;
+using Newtonsoft.Json;
 
 namespace Oxide.Plugins
 {
@@ -33,6 +34,22 @@ namespace Oxide.Plugins
 				if(!cfg.ContainsKey(item.shortname))
 					cfg[item.shortname] = "assets/icons/isloading.png";
 			}
+			
+			webrequest.Enqueue("https://raw.githubusercontent.com/shooter46/RUST-ItemIcons/main/config/ItemIcons.json", null, (code, response) =>
+            {
+                if (response != null && code == 200)
+                {
+                    try
+                    {
+                        Dictionary<string, string> items = JsonConvert.DeserializeObject<Dictionary<string, string>>(response);
+                        foreach(var item in items) {
+							cfg[item.Key] = item.Value;
+						}
+                    }
+                    catch {}
+					Config.WriteObject(cfg, true);
+                }
+            }, this);
 			
 			Config.WriteObject(cfg, true);
 		}
