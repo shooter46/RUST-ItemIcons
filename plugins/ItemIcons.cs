@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Oxide.Core.Configuration;
+using Oxide.Core.Plugins;
 using UnityEngine;
 using Newtonsoft.Json;
 
@@ -53,6 +54,7 @@ namespace Oxide.Plugins
 			Config.WriteObject(cfg, true);
 		}
 
+		[HookMethod("ItemIcon")]
 		public string ItemIcon(string shortname, bool placeholder = true)
 		{
 			if(cfg.ContainsKey(shortname))
