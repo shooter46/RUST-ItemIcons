@@ -636,6 +636,7 @@
   "vehicle.1mod.rear.seats": "assets/prefabs/vehicle/vehiclemoduleitems/1module_rear_seats/1module_rear_seats.icon.png",
   "vehicle.1mod.storage": "assets/prefabs/vehicle/vehiclemoduleitems/1module_storage/1module_storage.icon.png",
   "vehicle.1mod.taxi": "assets/prefabs/vehicle/vehiclemoduleitems/1module_taxi/1module_taxi.icon.png",
+  "vehicle.2mod.camper": "assets/prefabs/vehicle/vehiclemoduleitems/2module_camper/2module_camper.icon.png",
   "vehicle.2mod.flatbed": "assets/prefabs/vehicle/vehiclemoduleitems/2module_flatbed/2module_flatbed.icon.png",
   "vehicle.2mod.fuel.tank": "assets/prefabs/vehicle/vehiclemoduleitems/2module_fuel_tank/2module_fuel_tank.icon.png",
   "vehicle.2mod.passengers": "assets/prefabs/vehicle/vehiclemoduleitems/2module_passengers/2module_passengers.icon.png",
