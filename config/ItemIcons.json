@@ -1,5 +1,6 @@
 {
   "abovegroundpool": "assets/prefabs/misc/summer_dlc/abovegroundpool/abovegroundpool.deployed.icon.png",
+  "aiming.module.mlrs": "assets/content/vehicles/mlrs/aiming_module.worldmodel.icon.png",
   "ammo.grenadelauncher.buckshot": "assets/prefabs/ammo/40mmgrenade/40mm_buckshot.icon.png",
   "ammo.grenadelauncher.he": "assets/prefabs/ammo/40mmgrenade/40mm_grenade_he.icon.png",
   "ammo.grenadelauncher.smoke": "assets/prefabs/ammo/40mmgrenade/40mm_grenade_smoke.icon.png",
@@ -16,6 +17,7 @@
   "ammo.rocket.basic": "assets/prefabs/ammo/rocket/ammo_rocket_basic.png",
   "ammo.rocket.fire": "assets/prefabs/ammo/rocket/ammo_rocket_fire.png",
   "ammo.rocket.hv": "assets/prefabs/ammo/rocket/ammo_rocket_hv.png",
+  "ammo.rocket.mlrs": "assets/content/vehicles/mlrs/rocket_mlrs.worldmodel.icon.png",
   "ammo.rocket.sam": "assets/prefabs/npc/sam_site_turret/sam_ammo.icon.png",
   "ammo.rocket.smoke": "assets/prefabs/ammo/rocket/ammo_rocket_thick.png",
   "ammo.shotgun": "assets/prefabs/ammo/shotgun/ammo_shotgun.png",
@@ -415,6 +417,7 @@
   "mining.pumpjack": "assets/prefabs/deployable/oil jack/mining.pumpjack.icon.png",
   "mining.quarry": "assets/prefabs/deployable/quarry/mining_quarry.png",
   "mixingtable": "assets/prefabs/deployable/mixingtable/MixingTable.icon.png",
+  "mlrs": "assets/prefabs/misc/casino/bigwheel/icons/1.png",
   "mobilephone": "assets/prefabs/voiceaudio/mobilephone/mobilephone.weapon.icon.png",
   "modularcarlift": "assets/prefabs/deployable/modular car lift/electrical.modularcarlift.icon.png",
   "movembermoustache": "assets/prefabs/misc/movember/movember_moustache_style01/movember_moustache.icon.png",
