@@ -594,6 +594,8 @@
   "snowballgun": "assets/prefabs/misc/xmas/snowballgun/snowballgun.entity.icon.png",
   "snowmachine": "assets/prefabs/misc/xmas/snow_machine/SnowMachine.icon.png",
   "snowman": "assets/prefabs/misc/xmas/snowman/snowman.deployed.icon.png",
+  "snowmobile": "assets/content/vehicles/snowmobiles/snowmobile.icon.png",
+  "snowmobiletomaha": "assets/content/vehicles/snowmobiles/tomahasnowmobile.icon.png",
   "sofa": "assets/prefabs/deployable/sofa/sofa.item.icon.png",
   "sofa.pattern": "assets/prefabs/deployable/sofa/sofa.pattern.deployed.icon.png",
   "soundlight": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.icon.png",
